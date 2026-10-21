@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forma200.dokuline.com/sitemap.xml
