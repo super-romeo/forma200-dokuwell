@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Для ТОО и ИП с работниками в Казахстане: ОПВ, ОПВР, СО и ВОСМС по каждому работнику каждый месяц и форма 200.00 за квартал.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Отчисления и 200.00</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Отчисления и 200.00</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Отчисления по работникам и форма 200.00 — без бюро и без ручных таблиц</h1>
-    <p class="sub">Для ТОО и ИП, у которых есть наёмные работники: вы вносите начисленную зарплату за месяц, сервис считает пенсионные взносы, социальные отчисления и медстрахование по каждому человеку и в конце квартала собирает форму 200.00.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для ТОО и ИП</p>
+      <h1 class="rise" style="--i:1">Отчисления по работникам и форма 200.00&nbsp;<span class="soft">— без бюро и без ручных таблиц</span></h1>
+      <p class="rise" style="--i:2">Для ТОО и ИП, у которых есть наёмные работники: вы вносите начисленную зарплату за месяц, сервис считает пенсионные взносы, социальные отчисления и медстрахование по каждому человеку и в конце квартала собирает форму 200.00.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="150" width="640" height="500" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><text x="210" y="230" font-size="40" fill="#0a1524" font-weight="600">Отчисления</text><text x="210" y="300" font-size="32" fill="#566174">пенсионные взносы</text><rect x="210" y="360" width="480" height="24" fill="#dde2ea" rx="8" /><rect x="210" y="430" width="400" height="24" fill="#dde2ea" rx="8" /><rect x="210" y="500" width="440" height="24" fill="#dde2ea" rx="8" /><circle cx="930" cy="400" r="64" fill="#dfe8f7" /><polyline points="890,400 922,438 980,352" fill="none" stroke="#12397a" stroke-width="8" /><text x="210" y="590" font-size="32" fill="#0a1524" font-weight="600">200.00</text></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>ТОО и ИП</dd></div>
+      <div><dt>Считает</dt><dd>Пенсионные взносы</dd></div>
+      <div><dt>Форма</dt><dd>Форму 200.00</dd></div>
+      <div><dt>Доступ</dt><dd>Ранний доступ</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Расчёт по работнику</b><span>ОПВ, ОПВР, СО, ВОСМС и ООСМС за месяц.</span><br><a class="btn" href="price.html" data-ev="feature_raschet">Мне это нужно</a></div>
-      <div class="card"><b>Форма 200.00</b><span>Собирается из месяцев квартала.</span><br><a class="btn" href="price.html" data-ev="feature_forma">Мне это нужно</a></div>
-      <div class="card"><b>Суммы к оплате</b><span>Что и сколько перечислить до 25 числа.</span><br><a class="btn" href="price.html" data-ev="feature_platezhi">Мне это нужно</a></div>
-      <div class="card"><b>История</b><span>Расчёты по каждому работнику за все месяцы.</span><br><a class="btn" href="price.html" data-ev="feature_istoriya">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">Расчёт</text><text x="110" y="196" font-size="30" fill="#566174">работнику</text><rect x="110" y="250" width="420" height="26" fill="#dde2ea" rx="8" /><rect x="110" y="322" width="300" height="26" fill="#b9c3d2" rx="8" /><rect x="110" y="394" width="360" height="26" fill="#dde2ea" rx="8" /><circle cx="640" cy="460" r="36" fill="#dfe8f7" /><polyline points="616,460 634,482 668,430" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Расчёт по работнику</h3><p>ОПВ, ОПВР, СО, ВОСМС и ООСМС за месяц.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_raschet">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">Суммы</text><line x1="120" y1="470" x2="680" y2="470" stroke="#b9c3d2" stroke-width="4" fill="none" /><rect x="140" y="360" width="72" height="110" fill="#dfe8f7" rx="8" /><rect x="270" y="290" width="72" height="180" fill="#dde2ea" rx="8" /><rect x="400" y="380" width="72" height="90" fill="#b9c3d2" rx="8" /><rect x="530" y="230" width="72" height="240" fill="#12397a" rx="8" /></svg></div>
+        <h3>Форма 200.00</h3><p>Собирается из месяцев квартала.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_forma">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="136" font-size="36" fill="#0a1524" font-weight="600">Форма</text><rect x="120" y="200" width="540" height="78" fill="#dfe8f7" rx="28" /><circle cx="168" cy="239" r="14" fill="#ffffff" stroke="#12397a" stroke-width="4" /><text x="204" y="248" font-size="30" fill="#0a1524">квартала</text><rect x="120" y="320" width="540" height="78" fill="#dfe8f7" rx="28" /><circle cx="168" cy="359" r="14" fill="#12397a" stroke="#12397a" stroke-width="4" /><text x="204" y="368" font-size="30" fill="#0a1524">200.00</text></svg></div>
+        <h3>Суммы к оплате</h3><p>Что и сколько перечислить до 25 числа.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_platezhi">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">История</text><circle cx="270" cy="280" r="46" fill="#dfe8f7" /><circle cx="530" cy="280" r="46" fill="#12397a" /><ellipse cx="270" cy="390" rx="78" ry="40" fill="#dfe8f7" /><ellipse cx="530" cy="390" rx="78" ry="40" fill="#dde2ea" /><rect x="160" y="460" width="480" height="44" fill="#dfe8f7" rx="12" /></svg></div>
+        <h3>История</h3><p>Расчёты по каждому работнику за все месяцы.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_istoriya">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Небольшое ТОО в Алматы — кофейня, семь работников. Раньше бухгалтер на аутсорсе каждый месяц считал отчисления в таблице, а раз в квартал брал отдельную плату за форму 200.00. Теперь владелец вносит начисленную зарплату за месяц, сервис показывает ОПВ, ОПВР, СО и медстрахование по каждому человеку и суммы к перечислению, а в конце квартала собирает форму 200.00 для сдачи через кабинет налогоплательщика.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Посмотреть предложение</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Небольшое ТОО в Алматы — кофейня, семь работников. Раньше бухгалтер на аутсорсе каждый месяц считал отчисления в таблице, а раз в квартал брал отдельную плату за форму 200.00. Теперь владелец вносит начисленную зарплату за месяц, сервис показывает ОПВ, ОПВР, СО и медстрахование по каждому человеку и суммы к перечислению, а в конце квартала собирает форму 200.00 для сдачи через кабинет налогоплательщика.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Посмотреть предложение</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">зарплату</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">взносы</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">200.00</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">форму 200.00</text><rect x="170" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="280" y="460" width="64" height="64" fill="#12397a" rx="10" /><rect x="390" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="500" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="610" y="460" width="64" height="64" fill="#12397a" rx="10" /><rect x="720" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><text x="170" y="640" font-size="32" fill="#566174">налогоплательщика</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Каждый работодатель в Казахстане — налоговый агент. С зарплаты каждого работника он ежемесячно удерживает и перечисляет обязательные пенсионные взносы, платит взносы работодателя, социальные отчисления и отчисления на медицинское страхование, а раз в квартал сдаёт форму 200.00 с разбивкой по месяцам и по людям.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Каждый работодатель в Казахстане — налоговый агент. С зарплаты каждого работника он ежемесячно удерживает и перечисляет обязательные пенсионные взносы, платит взносы работодателя, социальные отчисления и отчисления на медицинское страхование, а раз в квартал сдаёт форму 200.00 с разбивкой по месяцам и по людям.</p>
     <p>Обычно это делает бухгалтер на аутсорсе: расчёт зарплаты оплачивается за каждого человека, форма — отдельной строкой за квартал. Ответы на частые вопросы — в разделе <a href="#faq" data-ev="click_opis_faq">вопросов и ответов</a>, оставить заявку можно <a href="#start" data-ev="click_opis_start">внизу страницы</a>.</p>
     <p>В сервисе работники вносятся один раз: ФИО, ИИН, дата приёма, статус — резидент или нерезидент, пенсионер, лицо с инвалидностью. От статуса зависит, какие взносы и отчисления начисляются, и сервис учитывает это сам.</p>
     <p>Каждый месяц вы вносите начисленную зарплату по каждому человеку или загружаете её таблицей. Сервис считает обязательные пенсионные взносы работника и работодателя, социальные отчисления, взносы и отчисления на обязательное медицинское страхование, а также индивидуальный подоходный налог, и показывает суммы к перечислению по каждому виду платежа.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>По каждому работнику хранится история за все месяцы: начисленная зарплата, взносы, отчисления и налог. Если придёт запрос из налогового органа или работник попросит справку о перечисленных взносах, все суммы видны по месяцам без поиска по таблицам и переписке с бухгалтером. Данные можно выгрузить таблицей для своего бухгалтера.</p>
     <p>Для начала достаточно внести работников и зарплату за один месяц.</p>
     <p>Сервис считает взносы и готовит форму; сдача отчётности и ответственность за перечисления остаются за работодателем.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Что считает сервис?</h3>
-    <p>ОПВ, ОПВР, СО, ВОСМС и ООСМС по каждому работнику за месяц, а также суммы к перечислению.</p>
-    <h3>Сервис сам сдаёт форму 200.00?</h3>
-    <p>Нет: сервис собирает форму, сдаёт её работодатель через кабинет налогоплательщика.</p>
-    <h3>Учитываются ли пенсионеры и нерезиденты?</h3>
-    <p>Да, статус работника вносится один раз, и расчёт учитывает, какие взносы и отчисления по нему не начисляются.</p>
-    <h3>Какие сроки напоминает сервис?</h3>
-    <p>Перечисление до 25 числа следующего месяца и сдачу формы 200.00 до 15 числа второго месяца после квартала.</p>
-    <h3>Можно ли воспользоваться уже сейчас?</h3>
-    <p>Пока нет. Сервис готовится, и мы проверяем, нужен ли он работодателям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Что считает сервис?</h3><p>ОПВ, ОПВР, СО, ВОСМС и ООСМС по каждому работнику за месяц, а также суммы к перечислению.</p></div>
+      <div class="split flip"><h3>Сервис сам сдаёт форму 200.00?</h3><p>Нет: сервис собирает форму, сдаёт её работодатель через кабинет налогоплательщика.</p></div>
+      <div class="split flip"><h3>Учитываются ли пенсионеры и нерезиденты?</h3><p>Да, статус работника вносится один раз, и расчёт учитывает, какие взносы и отчисления по нему не начисляются.</p></div>
+      <div class="split flip"><h3>Какие сроки напоминает сервис?</h3><p>Перечисление до 25 числа следующего месяца и сдачу формы 200.00 до 15 числа второго месяца после квартала.</p></div>
+      <div class="split flip"><h3>Можно ли воспользоваться уже сейчас?</h3><p>Пока нет. Сервис готовится, и мы проверяем, нужен ли он работодателям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Оставьте заявку</h2>
-    <p><label>Сколько у вас работников<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>1–5</option><option>6–15</option><option>16–50</option><option>Больше 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Оставьте заявку</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько у вас работников<select data-ev-focus="form_start"><option value="">— выберите —</option><option>1–5</option><option>6–15</option><option>16–50</option><option>Больше 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Отчисления и 200.00</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Политика конфиденциальности</a></p>
-  <p class="muted">Сервис считает взносы и готовит форму 200.00; сдача отчётности и ответственность за перечисления остаются за работодателем.</p>
+  <p>Сервис считает взносы и готовит форму 200.00; сдача отчётности и ответственность за перечисления остаются за работодателем.</p>
 </div></footer>
 
 </body>
